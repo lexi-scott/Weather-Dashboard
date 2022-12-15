@@ -1,0 +1,65 @@
+html {
+    background-color:  rgb(246, 232, 220);
+}
+
+header {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color:rgb(29, 67, 54);
+    color:  rgb(246, 232, 220);
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}
+
+body {
+    background-color: rgb(246, 232, 220);
+}
+
+input {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(29, 67, 54);
+    width: 100%;
+}
+
+.container {
+    margin: 5px;
+}
+
+.card {
+    background-color: rgb(29, 67, 54);
+    padding: 12px;
+    margin: 2px;
+}
+
+.card-header {
+    background-color: rgb(246, 243, 240);
+}
+.list-group {
+    justify-content: center;
+}
+
+.list-group-item {
+    background-color:  rgb(246, 243, 240);
+}
+
+.list-group-flush {
+    padding: 0px;
+}
+
+#currentDay {
+    color: rgba(173, 182, 12, 0.918);
+    -webkit-text-stroke: 0px;
+}
+
+#search-header {
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+#search-input {
+    margin-bottom: 10px;
+}
