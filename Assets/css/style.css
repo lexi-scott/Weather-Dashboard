@@ -38,6 +38,13 @@ input {
 .card-header {
     background-color: rgb(246, 243, 240);
 }
+
+.fivecard {
+    width: 10rem;
+    margin: 5px;
+    border: solid 10px rgb(29, 67, 54);
+    padding: 0px;
+}
 .list-group {
     justify-content: center;
 }
@@ -50,8 +57,15 @@ input {
     padding: 0px;
 }
 
+.btn-styled {
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
 #currentDay {
-    color: rgba(173, 182, 12, 0.918);
+    color: darkgoldenrod;
     -webkit-text-stroke: 0px;
 }
 
@@ -62,4 +76,9 @@ input {
 
 #search-input {
     margin-bottom: 10px;
+}
+
+#savedCityBtn {
+    list-style-type: none; 
+    margin: 5px;
 }
