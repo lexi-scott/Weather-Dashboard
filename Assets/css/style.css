@@ -65,6 +65,11 @@ input {
     background-color: darkgoldenrod;
 }
 
+.savedCityBtn {
+    list-style-type: none; 
+    margin: 5px;
+    }
+
 #currentDay {
     color: darkgoldenrod;
     -webkit-text-stroke: 0px;
@@ -77,9 +82,4 @@ input {
 
 #search-input {
     margin-bottom: 10px;
-}
-
-.savedCityBtn {
-    list-style-type: none; 
-    margin: 5px;
 }
