@@ -44,6 +44,7 @@ input {
     margin: 5px;
     border: solid 10px rgb(29, 67, 54);
     padding: 0px;
+    border-radius: 10px;
 }
 .list-group {
     justify-content: center;
@@ -78,7 +79,7 @@ input {
     margin-bottom: 10px;
 }
 
-#savedCityBtn {
+.savedCityBtn {
     list-style-type: none; 
     margin: 5px;
 }
